@@ -19,6 +19,11 @@ public class Ejecutor2 {
         notas);
         libretae.establecerPromedio();
         libretae.establecerPromedioCualitativo();
+        /*
+        En el momento de comentar las lineas 20 y 21 y ejecutamos el codigo
+        se presentaran los valores por defecto de los objetos, los cuales serian
+        0 y null
+        */
         System.out.printf("\n%s\n", libretae);
     }
 }
