@@ -6,11 +6,14 @@
 package paquete03;
 
 import paquete01.Calificacion;
+import paquete01.Profesor;
 
 public class Ejemplo {
     public static void main(String[] args) {
         // crear un arreglo de objetos de tipo Calificacion
         Calificacion [] calificaciones = new Calificacion[2];
+        Profesor profesor1 = new Profesor("Franco","nombramiento");
+        Profesor profesor2 = new Profesor("Richard","contrato");
         
         Calificacion c = new Calificacion(10, "Computación");
         Calificacion c2 = new Calificacion(9, "Electrónica");
