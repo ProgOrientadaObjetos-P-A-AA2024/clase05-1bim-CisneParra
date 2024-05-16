@@ -24,14 +24,15 @@ public class Ejemplo4 {
 
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f - Profesor(%s)\n",
+            System.out.printf("%s - %.2f - Profesor(%s - %s)\n",
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
-                    objetoCalificacion.obtenerProfesor().obtenerNombre());
+                    objetoCalificacion.obtenerProfesor().obtenerNombre(),
+                    objetoCalificacion.obtenerProfesor().obtenerTipo());
             /*
             En la linea 30 se llama a un OBJETO de tipo PROFESOR es decir que 
             se abre camino desde obtener Profesor hasta obtener el nombre.
-            */
+             */
         }
 
     }
