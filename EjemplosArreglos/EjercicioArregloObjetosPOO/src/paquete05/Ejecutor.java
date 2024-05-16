@@ -19,6 +19,11 @@ public class Ejecutor {
         
                 
         Calificacion [] lista = {c1, c2, c3}; 
+        c1.establecerProfesor(profesor1);
+        c2.establecerProfesor(profesor2);
+        c3.establecerProfesor(profesor3);
+        // Se llama a los metodos para sobre escribir los nombres de los 
+        // profesores para no afectar al constructor
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
                 lista);
